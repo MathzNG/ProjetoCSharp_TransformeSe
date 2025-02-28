@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: LojaABC, Configuration: Debug Any CPU ------
+1>  LojaABC -> C:\Users\matheus.nguedes\Documents\Visual Studio 2019\TransformeSe\LojaABC\bin\Debug\LojaABC.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
