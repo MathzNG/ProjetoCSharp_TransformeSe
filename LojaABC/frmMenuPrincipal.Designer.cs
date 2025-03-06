@@ -120,7 +120,7 @@ namespace LojaABC
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(170, 240);
             this.button5.TabIndex = 5;
-            this.button5.Text = "Co&nfigurações";
+            this.button5.Text = "&Relatórios";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = true;
