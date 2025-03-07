@@ -86,5 +86,10 @@ namespace LojaABC
         {
 
         }
+
+        private void rdbMasculino_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
