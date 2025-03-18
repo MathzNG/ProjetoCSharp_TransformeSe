@@ -161,7 +161,6 @@ namespace LojaABC
             this.rdbMasculino.TabStop = true;
             this.rdbMasculino.Text = "Masculino";
             this.rdbMasculino.UseVisualStyleBackColor = true;
-            this.rdbMasculino.CheckedChanged += new System.EventHandler(this.rdbMasculino_CheckedChanged);
             // 
             // dtpDatanascimento
             // 
@@ -196,7 +195,6 @@ namespace LojaABC
             this.lblCpf.Size = new System.Drawing.Size(40, 20);
             this.lblCpf.TabIndex = 6;
             this.lblCpf.Text = "CPF";
-            this.lblCpf.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtEmail
             // 
@@ -231,7 +229,6 @@ namespace LojaABC
             this.lblNome.Size = new System.Drawing.Size(51, 20);
             this.lblNome.TabIndex = 2;
             this.lblNome.Text = "Nome";
-            this.lblNome.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtCodigo
             // 
@@ -250,7 +247,6 @@ namespace LojaABC
             this.lblCodigo.Size = new System.Drawing.Size(59, 20);
             this.lblCodigo.TabIndex = 0;
             this.lblCodigo.Text = "Código";
-            this.lblCodigo.Click += new System.EventHandler(this.label2_Click);
             // 
             // pnlCRUD
             // 
@@ -276,6 +272,7 @@ namespace LojaABC
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnPesquisar
             // 
@@ -342,7 +339,6 @@ namespace LojaABC
             this.btnNovo.Text = "&Novo";
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNovo.UseVisualStyleBackColor = true;
-            this.btnNovo.Click += new System.EventHandler(this.button1_Click);
             // 
             // gpbEndereço
             // 
@@ -435,7 +431,6 @@ namespace LojaABC
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(124, 26);
             this.txtEstado.TabIndex = 19;
-            this.txtEstado.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // lblEstado
             // 
@@ -470,7 +465,6 @@ namespace LojaABC
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(119, 26);
             this.txtNumero.TabIndex = 14;
-            this.txtNumero.TextChanged += new System.EventHandler(this.textBox4_TextChanged_1);
             // 
             // lblNumero
             // 
@@ -506,7 +500,6 @@ namespace LojaABC
             this.txtLogradouro.Name = "txtLogradouro";
             this.txtLogradouro.Size = new System.Drawing.Size(266, 26);
             this.txtLogradouro.TabIndex = 12;
-            this.txtLogradouro.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // lblLogradouro
             // 
@@ -531,7 +524,6 @@ namespace LojaABC
             this.Name = "frmFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - Funcionários";
-            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
             this.gpbDadospessoais.ResumeLayout(false);
             this.gpbDadospessoais.PerformLayout();
             this.gpbSexo.ResumeLayout(false);
