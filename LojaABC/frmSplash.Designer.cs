@@ -29,11 +29,12 @@ namespace LojaABC
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
             this.pctLogo = new System.Windows.Forms.PictureBox();
             this.lblNumero = new System.Windows.Forms.Label();
-            this.lblPorcentagem = new System.Windows.Forms.Label();
             this.pgbSplash = new System.Windows.Forms.ProgressBar();
+            this.tmrSplash = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,23 +53,12 @@ namespace LojaABC
             // 
             this.lblNumero.AutoSize = true;
             this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(373, 414);
+            this.lblNumero.Location = new System.Drawing.Point(382, 415);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(18, 20);
             this.lblNumero.TabIndex = 1;
             this.lblNumero.Text = "0";
             this.lblNumero.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // lblPorcentagem
-            // 
-            this.lblPorcentagem.AutoSize = true;
-            this.lblPorcentagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPorcentagem.Location = new System.Drawing.Point(385, 414);
-            this.lblPorcentagem.Name = "lblPorcentagem";
-            this.lblPorcentagem.Size = new System.Drawing.Size(23, 20);
-            this.lblPorcentagem.TabIndex = 2;
-            this.lblPorcentagem.Text = "%";
-            this.lblPorcentagem.Click += new System.EventHandler(this.label2_Click);
             // 
             // pgbSplash
             // 
@@ -76,8 +66,13 @@ namespace LojaABC
             this.pgbSplash.Location = new System.Drawing.Point(194, 452);
             this.pgbSplash.Name = "pgbSplash";
             this.pgbSplash.Size = new System.Drawing.Size(386, 23);
-            this.pgbSplash.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.pgbSplash.TabIndex = 10;
+            // 
+            // tmrSplash
+            // 
+            this.tmrSplash.Enabled = true;
+            this.tmrSplash.Interval = 300;
+            this.tmrSplash.Tick += new System.EventHandler(this.tmrSplash_Tick);
             // 
             // frmSplash
             // 
@@ -85,7 +80,6 @@ namespace LojaABC
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 557);
             this.Controls.Add(this.pgbSplash);
-            this.Controls.Add(this.lblPorcentagem);
             this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.pctLogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -104,7 +98,7 @@ namespace LojaABC
 
         private System.Windows.Forms.PictureBox pctLogo;
         private System.Windows.Forms.Label lblNumero;
-        private System.Windows.Forms.Label lblPorcentagem;
         private System.Windows.Forms.ProgressBar pgbSplash;
+        private System.Windows.Forms.Timer tmrSplash;
     }
 }

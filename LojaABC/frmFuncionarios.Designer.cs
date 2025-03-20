@@ -50,7 +50,7 @@ namespace LojaABC
             this.pnlCRUD = new System.Windows.Forms.Panel();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
-            this.bntLimpar = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
@@ -252,7 +252,7 @@ namespace LojaABC
             // 
             this.pnlCRUD.Controls.Add(this.btnVoltar);
             this.pnlCRUD.Controls.Add(this.btnPesquisar);
-            this.pnlCRUD.Controls.Add(this.bntLimpar);
+            this.pnlCRUD.Controls.Add(this.btnLimpar);
             this.pnlCRUD.Controls.Add(this.btnExcluir);
             this.pnlCRUD.Controls.Add(this.btnAlterar);
             this.pnlCRUD.Controls.Add(this.btnCadastrar);
@@ -285,16 +285,17 @@ namespace LojaABC
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPesquisar.UseVisualStyleBackColor = true;
             // 
-            // bntLimpar
+            // btnLimpar
             // 
-            this.bntLimpar.Image = ((System.Drawing.Image)(resources.GetObject("bntLimpar.Image")));
-            this.bntLimpar.Location = new System.Drawing.Point(436, 7);
-            this.bntLimpar.Name = "bntLimpar";
-            this.bntLimpar.Size = new System.Drawing.Size(103, 37);
-            this.bntLimpar.TabIndex = 27;
-            this.bntLimpar.Text = "&Limpar";
-            this.bntLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bntLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpar.Image")));
+            this.btnLimpar.Location = new System.Drawing.Point(436, 7);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(103, 37);
+            this.btnLimpar.TabIndex = 27;
+            this.btnLimpar.Text = "&Limpar";
+            this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnExcluir
             // 
@@ -328,6 +329,7 @@ namespace LojaABC
             this.btnCadastrar.Text = "&Cadastrar";
             this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnNovo
             // 
@@ -339,6 +341,7 @@ namespace LojaABC
             this.btnNovo.Text = "&Novo";
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // gpbEndereço
             // 
@@ -573,7 +576,7 @@ namespace LojaABC
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnPesquisar;
-        private System.Windows.Forms.Button bntLimpar;
+        private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnCadastrar;

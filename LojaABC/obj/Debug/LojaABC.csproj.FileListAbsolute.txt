@@ -12,3 +12,17 @@ C:\Users\matheus.nguedes\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\D
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmMenuPrincipal.resources
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmFuncionarios.resources
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\TransformeSe\LojaABC\obj\Debug\LojaABC.frmPesquisarFuncionarios.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\bin\Debug\LojaABC.exe.config
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\bin\Debug\LojaABC.exe
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\bin\Debug\LojaABC.pdb
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.csproj.AssemblyReference.cache
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.frmFuncionarios.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.frmLogin.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.frmMenuPrincipal.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.frmPesquisarFuncionarios.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.frmSplash.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.Properties.Resources.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.csproj.GenerateResource.cache
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.csproj.CoreCompileInputs.cache
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.exe
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.pdb
