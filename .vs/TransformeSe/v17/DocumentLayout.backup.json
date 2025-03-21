@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmLogin.cs",
-              "RelativeToolTip": "LojaABC\\frmLogin.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\Program.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Program.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\Program.cs",
+              "RelativeToolTip": "Calculadora\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:06:28.015Z",
+              "WhenOpened": "2025-03-21T20:00:31.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCalculadora.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs*",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:47:17.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmFuncionarios.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs*",
-              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs*",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAzwLIAAAAkAAAAAAAAAA==",
+              "Title": "frmCalculadora.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs [Design]*",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:53:59.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs [Design]*",
-              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:45:39.658Z",
+              "WhenOpened": "2025-03-21T19:44:23.143Z",
               "EditorCaption": " [Design]"
             }
           ]
