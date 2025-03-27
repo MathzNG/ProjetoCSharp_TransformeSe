@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\Program.cs",
-              "RelativeDocumentMoniker": "Calculadora\\Program.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\Program.cs",
-              "RelativeToolTip": "Calculadora\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:00:31.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmCalculadora.cs",
               "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
               "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
               "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
               "RelativeToolTip": "Calculadora\\frmCalculadora.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwF4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:47:17.375Z",
+              "WhenOpened": "2025-03-27T16:58:14.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmCalculadora.cs [Design]",
               "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
               "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",

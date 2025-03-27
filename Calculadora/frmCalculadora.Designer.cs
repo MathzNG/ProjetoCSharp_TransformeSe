@@ -36,16 +36,14 @@
             this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.lblNumero1 = new System.Windows.Forms.Label();
             this.gpbOperacoes = new System.Windows.Forms.GroupBox();
-            this.rdbSomar = new System.Windows.Forms.RadioButton();
-            this.rdbSubtrair = new System.Windows.Forms.RadioButton();
-            this.rdbDivisao = new System.Windows.Forms.RadioButton();
             this.rdbMultiplicacao = new System.Windows.Forms.RadioButton();
+            this.rdbDivisao = new System.Windows.Forms.RadioButton();
+            this.rdbSubtrair = new System.Windows.Forms.RadioButton();
+            this.rdbSomar = new System.Windows.Forms.RadioButton();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gpbOperacoes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblResposta
@@ -114,27 +112,15 @@
             this.gpbOperacoes.TabStop = false;
             this.gpbOperacoes.Text = "Operações";
             // 
-            // rdbSomar
+            // rdbMultiplicacao
             // 
-            this.rdbSomar.AutoSize = true;
-            this.rdbSomar.Location = new System.Drawing.Point(22, 46);
-            this.rdbSomar.Name = "rdbSomar";
-            this.rdbSomar.Size = new System.Drawing.Size(55, 17);
-            this.rdbSomar.TabIndex = 4;
-            this.rdbSomar.TabStop = true;
-            this.rdbSomar.Text = "Somar";
-            this.rdbSomar.UseVisualStyleBackColor = true;
-            // 
-            // rdbSubtrair
-            // 
-            this.rdbSubtrair.AutoSize = true;
-            this.rdbSubtrair.Location = new System.Drawing.Point(22, 92);
-            this.rdbSubtrair.Name = "rdbSubtrair";
-            this.rdbSubtrair.Size = new System.Drawing.Size(61, 17);
-            this.rdbSubtrair.TabIndex = 5;
-            this.rdbSubtrair.TabStop = true;
-            this.rdbSubtrair.Text = "Subtrair";
-            this.rdbSubtrair.UseVisualStyleBackColor = true;
+            this.rdbMultiplicacao.AutoSize = true;
+            this.rdbMultiplicacao.Location = new System.Drawing.Point(22, 181);
+            this.rdbMultiplicacao.Name = "rdbMultiplicacao";
+            this.rdbMultiplicacao.Size = new System.Drawing.Size(87, 17);
+            this.rdbMultiplicacao.TabIndex = 7;
+            this.rdbMultiplicacao.Text = "Multiplicação";
+            this.rdbMultiplicacao.UseVisualStyleBackColor = true;
             // 
             // rdbDivisao
             // 
@@ -143,20 +129,28 @@
             this.rdbDivisao.Name = "rdbDivisao";
             this.rdbDivisao.Size = new System.Drawing.Size(60, 17);
             this.rdbDivisao.TabIndex = 6;
-            this.rdbDivisao.TabStop = true;
             this.rdbDivisao.Text = "Divisão";
             this.rdbDivisao.UseVisualStyleBackColor = true;
             // 
-            // rdbMultiplicacao
+            // rdbSubtrair
             // 
-            this.rdbMultiplicacao.AutoSize = true;
-            this.rdbMultiplicacao.Location = new System.Drawing.Point(22, 181);
-            this.rdbMultiplicacao.Name = "rdbMultiplicacao";
-            this.rdbMultiplicacao.Size = new System.Drawing.Size(87, 17);
-            this.rdbMultiplicacao.TabIndex = 7;
-            this.rdbMultiplicacao.TabStop = true;
-            this.rdbMultiplicacao.Text = "Multiplicação";
-            this.rdbMultiplicacao.UseVisualStyleBackColor = true;
+            this.rdbSubtrair.AutoSize = true;
+            this.rdbSubtrair.Location = new System.Drawing.Point(22, 92);
+            this.rdbSubtrair.Name = "rdbSubtrair";
+            this.rdbSubtrair.Size = new System.Drawing.Size(61, 17);
+            this.rdbSubtrair.TabIndex = 5;
+            this.rdbSubtrair.Text = "Subtrair";
+            this.rdbSubtrair.UseVisualStyleBackColor = true;
+            // 
+            // rdbSomar
+            // 
+            this.rdbSomar.AutoSize = true;
+            this.rdbSomar.Location = new System.Drawing.Point(22, 46);
+            this.rdbSomar.Name = "rdbSomar";
+            this.rdbSomar.Size = new System.Drawing.Size(55, 17);
+            this.rdbSomar.TabIndex = 4;
+            this.rdbSomar.Text = "Somar";
+            this.rdbSomar.UseVisualStyleBackColor = true;
             // 
             // btnCalcular
             // 
@@ -170,6 +164,7 @@
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnLimpar
             // 
@@ -199,20 +194,11 @@
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(52, 247);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(369, 191);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
@@ -227,7 +213,6 @@
             this.Text = "frmCalculadora";
             this.gpbOperacoes.ResumeLayout(false);
             this.gpbOperacoes.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,6 +234,5 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnSair;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
