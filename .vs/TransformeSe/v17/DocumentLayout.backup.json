@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|solutionrelative:controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6CEBC16-76A3-4493-95D9-927505A26550}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|solutionrelative:controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCalculadora.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
-              "RelativeToolTip": "Calculadora\\frmCalculadora.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwF4AAAAVAAAAAAAAAA==",
+              "Title": "Folhadepagamento.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs",
+              "RelativeDocumentMoniker": "ControledeFluxo\\Folhadepagamento.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs*",
+              "RelativeToolTip": "ControledeFluxo\\Folhadepagamento.cs*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAWwEoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:58:14.5Z",
+              "WhenOpened": "2025-03-27T20:03:11.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmCalculadora.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\Calculadora\\frmCalculadora.cs [Design]",
-              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]",
+              "Title": "Folhadepagamento.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs",
+              "RelativeDocumentMoniker": "ControledeFluxo\\Folhadepagamento.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs [Design]*",
+              "RelativeToolTip": "ControledeFluxo\\Folhadepagamento.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:44:23.143Z",
+              "WhenOpened": "2025-03-27T20:01:37.844Z",
               "EditorCaption": " [Design]"
             }
           ]
