@@ -48,6 +48,7 @@ namespace LojaABC
                 this.Hide();
                 lblNumero.Enabled = false;
             }
+            return;
         }
 
         private void frmSplash_Load(object sender, EventArgs e)

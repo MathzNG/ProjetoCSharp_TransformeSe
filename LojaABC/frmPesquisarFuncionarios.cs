@@ -17,6 +17,7 @@ namespace LojaABC
             InitializeComponent();
             DesabilitarCampos();
         }
+        
         public void LimparCampos()
         {
             rdbCodigo.Checked = false;
@@ -31,16 +32,14 @@ namespace LojaABC
             rdbNome.Checked = false;
             txtDescricao.Focus();
         }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        public void HabilitarCampos()
         {
-
+            txtDescricao.Enabled = true;
+            btnLimpar.Enabled = true;
+            btnPesquisar.Enabled = true;
+            txtDescricao.Focus();
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
@@ -50,9 +49,32 @@ namespace LojaABC
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtDescricao.Text))
+            {
+                MessageBox.Show("Por favor, preencha o campo de pesquisa.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             ltbPesquisar.Items.Clear();
             ltbPesquisar.Items.Add(txtDescricao.Text);
-           
+        }
+
+        private void rdbCodigo_CheckedChanged(object sender, EventArgs e)
+        {
+
+            HabilitarCampos();
+        }
+
+
+        private void rdbNome_CheckedChanged(object sender, EventArgs e)
+        {
+            HabilitarCampos();
+        }
+
+        private void ltbPesquisar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string descricao = ltbPesquisar.SelectedItem.ToString();
+            frmFuncionarios abrir = new frmFuncionarios();
+            abrir.Show();
+            this.Hide();
         }
     }
 }

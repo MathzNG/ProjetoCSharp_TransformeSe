@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|solutionrelative:controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85529F32-34EB-4FA1-B4BB-E87B1D7A8BE7}|ControledeFluxo\\ControledeFluxo.csproj|solutionrelative:controledefluxo\\folhadepagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Folhadepagamento.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs",
-              "RelativeDocumentMoniker": "ControledeFluxo\\Folhadepagamento.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs*",
-              "RelativeToolTip": "ControledeFluxo\\Folhadepagamento.cs*",
-              "ViewState": "AgIAADkAAAAAAAAAAAAWwEoAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frmFuncionarios.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs*",
+              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T20:03:11.966Z",
+              "WhenOpened": "2025-04-03T19:53:49.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs [Design]*",
+              "RelativeToolTip": "LojaABC\\frmFuncionarios.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:53:46.946Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPesquisarFuncionarios.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmPesquisarFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmPesquisarFuncionarios.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmPesquisarFuncionarios.cs*",
+              "RelativeToolTip": "LojaABC\\frmPesquisarFuncionarios.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswEoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:13:14.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Folhadepagamento.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs",
-              "RelativeDocumentMoniker": "ControledeFluxo\\Folhadepagamento.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\ControledeFluxo\\Folhadepagamento.cs [Design]*",
-              "RelativeToolTip": "ControledeFluxo\\Folhadepagamento.cs [Design]*",
+              "Title": "frmPesquisarFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmPesquisarFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmPesquisarFuncionarios.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmPesquisarFuncionarios.cs [Design]*",
+              "RelativeToolTip": "LojaABC\\frmPesquisarFuncionarios.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T20:01:37.844Z",
+              "WhenOpened": "2025-04-03T18:48:32.471Z",
               "EditorCaption": " [Design]"
             }
           ]

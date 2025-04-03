@@ -138,7 +138,7 @@ namespace LojaABC
             this.rdbNãodesejoinformar.TabStop = true;
             this.rdbNãodesejoinformar.Text = "Não desejo informar";
             this.rdbNãodesejoinformar.UseVisualStyleBackColor = true;
-            this.rdbNãodesejoinformar.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+           
             // 
             // rdbFeminino
             // 
@@ -478,7 +478,7 @@ namespace LojaABC
             this.lblNumero.Size = new System.Drawing.Size(65, 20);
             this.lblNumero.TabIndex = 10;
             this.lblNumero.Text = "Número";
-            this.lblNumero.Click += new System.EventHandler(this.label9_Click);
+           
             // 
             // mskCep
             // 

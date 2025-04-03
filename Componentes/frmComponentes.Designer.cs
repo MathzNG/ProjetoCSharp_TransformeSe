@@ -30,18 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmComponentes));
             this.gpbComponentes = new System.Windows.Forms.GroupBox();
-            this.lblName = new System.Windows.Forms.Label();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.lblListarprodutos = new System.Windows.Forms.Label();
-            this.ltbListarprodutos = new System.Windows.Forms.ListBox();
-            this.lblListarnome = new System.Windows.Forms.Label();
+            this.pcbImagens = new System.Windows.Forms.PictureBox();
             this.cbbListarnome = new System.Windows.Forms.ComboBox();
+            this.lblListarnome = new System.Windows.Forms.Label();
+            this.ltbListarprodutos = new System.Windows.Forms.ListBox();
+            this.lblListarprodutos = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
             this.lblEscolha = new System.Windows.Forms.Label();
             this.ckbLivros = new System.Windows.Forms.CheckBox();
             this.ckbComputador = new System.Windows.Forms.CheckBox();
             this.ckbMesa = new System.Windows.Forms.CheckBox();
             this.ckbBanana = new System.Windows.Forms.CheckBox();
-            this.pcbImagens = new System.Windows.Forms.PictureBox();
+            this.btnCarregar = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.gpbComponentes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagens)).BeginInit();
             this.SuspendLayout();
@@ -57,49 +61,27 @@
             this.gpbComponentes.Controls.Add(this.lblName);
             this.gpbComponentes.Location = new System.Drawing.Point(12, 12);
             this.gpbComponentes.Name = "gpbComponentes";
-            this.gpbComponentes.Size = new System.Drawing.Size(571, 387);
+            this.gpbComponentes.Size = new System.Drawing.Size(541, 381);
             this.gpbComponentes.TabIndex = 0;
             this.gpbComponentes.TabStop = false;
             this.gpbComponentes.Text = "Componentes";
             // 
-            // lblName
+            // pcbImagens
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(30, 52);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(44, 16);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "Nome";
+            this.pcbImagens.Location = new System.Drawing.Point(245, 208);
+            this.pcbImagens.Name = "pcbImagens";
+            this.pcbImagens.Size = new System.Drawing.Size(254, 154);
+            this.pcbImagens.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbImagens.TabIndex = 5;
+            this.pcbImagens.TabStop = false;
             // 
-            // txtNome
+            // cbbListarnome
             // 
-            this.txtNome.Location = new System.Drawing.Point(24, 71);
-            this.txtNome.MaxLength = 50;
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(169, 20);
-            this.txtNome.TabIndex = 1;
-            this.txtNome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNome_KeyDown);
-            // 
-            // lblListarprodutos
-            // 
-            this.lblListarprodutos.AutoSize = true;
-            this.lblListarprodutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblListarprodutos.Location = new System.Drawing.Point(249, 34);
-            this.lblListarprodutos.Name = "lblListarprodutos";
-            this.lblListarprodutos.Size = new System.Drawing.Size(95, 16);
-            this.lblListarprodutos.TabIndex = 2;
-            this.lblListarprodutos.Text = "Listar produtos";
-            // 
-            // ltbListarprodutos
-            // 
-            this.ltbListarprodutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbListarprodutos.FormattingEnabled = true;
-            this.ltbListarprodutos.ItemHeight = 16;
-            this.ltbListarprodutos.Location = new System.Drawing.Point(245, 52);
-            this.ltbListarprodutos.Name = "ltbListarprodutos";
-            this.ltbListarprodutos.Size = new System.Drawing.Size(254, 132);
-            this.ltbListarprodutos.TabIndex = 3;
+            this.cbbListarnome.FormattingEnabled = true;
+            this.cbbListarnome.Location = new System.Drawing.Point(25, 147);
+            this.cbbListarnome.Name = "cbbListarnome";
+            this.cbbListarnome.Size = new System.Drawing.Size(121, 21);
+            this.cbbListarnome.TabIndex = 2;
             // 
             // lblListarnome
             // 
@@ -111,13 +93,44 @@
             this.lblListarnome.TabIndex = 4;
             this.lblListarnome.Text = "Listar nome";
             // 
-            // cbbListarnome
+            // ltbListarprodutos
             // 
-            this.cbbListarnome.FormattingEnabled = true;
-            this.cbbListarnome.Location = new System.Drawing.Point(25, 147);
-            this.cbbListarnome.Name = "cbbListarnome";
-            this.cbbListarnome.Size = new System.Drawing.Size(121, 21);
-            this.cbbListarnome.TabIndex = 2;
+            this.ltbListarprodutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltbListarprodutos.FormattingEnabled = true;
+            this.ltbListarprodutos.ItemHeight = 16;
+            this.ltbListarprodutos.Location = new System.Drawing.Point(245, 52);
+            this.ltbListarprodutos.Name = "ltbListarprodutos";
+            this.ltbListarprodutos.Size = new System.Drawing.Size(254, 132);
+            this.ltbListarprodutos.TabIndex = 3;
+            // 
+            // lblListarprodutos
+            // 
+            this.lblListarprodutos.AutoSize = true;
+            this.lblListarprodutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblListarprodutos.Location = new System.Drawing.Point(249, 34);
+            this.lblListarprodutos.Name = "lblListarprodutos";
+            this.lblListarprodutos.Size = new System.Drawing.Size(95, 16);
+            this.lblListarprodutos.TabIndex = 2;
+            this.lblListarprodutos.Text = "Listar produtos";
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(24, 71);
+            this.txtNome.MaxLength = 50;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(169, 20);
+            this.txtNome.TabIndex = 1;
+            this.txtNome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNome_KeyDown);
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(30, 52);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(44, 16);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Nome";
             // 
             // lblEscolha
             // 
@@ -172,19 +185,48 @@
             this.ckbBanana.UseVisualStyleBackColor = true;
             this.ckbBanana.CheckedChanged += new System.EventHandler(this.ckbBanana_CheckedChanged);
             // 
-            // pcbImagens
+            // btnCarregar
             // 
-            this.pcbImagens.Location = new System.Drawing.Point(245, 208);
-            this.pcbImagens.Name = "pcbImagens";
-            this.pcbImagens.Size = new System.Drawing.Size(254, 154);
-            this.pcbImagens.TabIndex = 5;
-            this.pcbImagens.TabStop = false;
+            this.btnCarregar.Location = new System.Drawing.Point(257, 432);
+            this.btnCarregar.Name = "btnCarregar";
+            this.btnCarregar.Size = new System.Drawing.Size(181, 58);
+            this.btnCarregar.TabIndex = 8;
+            this.btnCarregar.Text = "Carregar";
+            this.btnCarregar.UseVisualStyleBackColor = true;
+            this.btnCarregar.Click += new System.EventHandler(this.btnCarregar_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(67, 432);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(177, 58);
+            this.btnLimpar.TabIndex = 9;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(453, 432);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(177, 57);
+            this.btnSair.TabIndex = 10;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmComponentes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 450);
+            this.ClientSize = new System.Drawing.Size(689, 510);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.btnLimpar);
+            this.Controls.Add(this.btnCarregar);
             this.Controls.Add(this.ckbBanana);
             this.Controls.Add(this.ckbMesa);
             this.Controls.Add(this.ckbComputador);
@@ -219,5 +261,9 @@
         private System.Windows.Forms.CheckBox ckbMesa;
         private System.Windows.Forms.CheckBox ckbBanana;
         private System.Windows.Forms.PictureBox pcbImagens;
+        private System.Windows.Forms.Button btnCarregar;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnSair;
     }
 }
