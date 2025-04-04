@@ -72,8 +72,15 @@ namespace LojaABC
         private void ltbPesquisar_SelectedIndexChanged(object sender, EventArgs e)
         {
             string descricao = ltbPesquisar.SelectedItem.ToString();
-            frmFuncionarios abrir = new frmFuncionarios();
+            frmFuncionarios abrir = new frmFuncionarios(descricao);
             abrir.Show();
+            this.Hide();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmFuncionarios voltar = new frmFuncionarios();
+            voltar.Show();
             this.Hide();
         }
     }

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//importando a biblioteca do banco de dados
+using MySql.Data.MySqlClient;
 
 namespace LojaABC
 {
@@ -25,7 +27,10 @@ namespace LojaABC
             //desabilitar os campos
             desabilitarcampos();
             txtNome.Text = descricao;
+            Habilitarcampos_pesquisar();
         }
+
+
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
@@ -120,6 +125,36 @@ namespace LojaABC
             btnNovo.Enabled = false;
 
             txtNome.Focus();
+        } 
+        
+        
+        public void Habilitarcampos_pesquisar()
+        {
+            //Dados pessoais
+            txtNome.Enabled = true;
+            txtEmail.Enabled = true;
+            mskCpf.Enabled = true;
+            dtpDatanascimento.Enabled = true;
+            mskCelular.Enabled = true;
+            mskCep.Enabled = true;
+
+            //Endereço
+            gpbDadospessoais.Enabled = true;
+            txtLogradouro.Enabled = true;
+            txtNumero.Enabled = true;
+            txtCidade.Enabled = true;
+            txtComplemento.Enabled = true;
+            txtEstado.Enabled = true;
+            cbbUf.Enabled = true;
+
+            //Botões
+            btnCadastrar.Enabled = false;
+            btnAlterar.Enabled = true;
+            btnExcluir.Enabled = true;
+            btnLimpar.Enabled = true;
+            btnNovo.Enabled = false;
+
+            txtNome.Focus();
         }
 
         private void btnNovo_Click(object sender, EventArgs e)
@@ -159,8 +194,22 @@ namespace LojaABC
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
             frmPesquisarFuncionarios abrir = new frmPesquisarFuncionarios();
-            abrir.ShowDialog();
-            
+            abrir.Show();
+            this.Hide();
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Conection.obterconexao();
+            MessageBox.Show("Foi");
+            Conection.fecharconexao();
+            MessageBox.Show(" Não foi");
+
+        }
+        public void cadastrarfuncionario()
+        {
 
         }
     }

@@ -1,10 +1,10 @@
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\bin\Debug\ControledeFluxo.exe.config
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\bin\Debug\ControledeFluxo.exe
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\bin\Debug\ControledeFluxo.pdb
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\obj\Debug\ControledeFluxo.csproj.AssemblyReference.cache
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\obj\Debug\ControledeFluxo.Folhadepagamento.resources
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\obj\Debug\ControledeFluxo.Properties.Resources.resources
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\obj\Debug\ControledeFluxo.csproj.GenerateResource.cache
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\obj\Debug\ControledeFluxo.csproj.CoreCompileInputs.cache
-C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\bin\Debug\ControledeFluxo.exe.config
-C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\bin\Debug\ControledeFluxo.exe
-C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\bin\Debug\ControledeFluxo.pdb
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\obj\Debug\ControledeFluxo.exe
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\ControledeFluxo\obj\Debug\ControledeFluxo.pdb

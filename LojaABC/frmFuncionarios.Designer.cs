@@ -70,6 +70,7 @@ namespace LojaABC
             this.lblCep = new System.Windows.Forms.Label();
             this.txtLogradouro = new System.Windows.Forms.TextBox();
             this.lblLogradouro = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.gpbDadospessoais.SuspendLayout();
             this.gpbSexo.SuspendLayout();
             this.pnlCRUD.SuspendLayout();
@@ -78,6 +79,7 @@ namespace LojaABC
             // 
             // gpbDadospessoais
             // 
+            this.gpbDadospessoais.Controls.Add(this.button1);
             this.gpbDadospessoais.Controls.Add(this.mskCelular);
             this.gpbDadospessoais.Controls.Add(this.lblCelular);
             this.gpbDadospessoais.Controls.Add(this.gpbSexo);
@@ -138,7 +140,6 @@ namespace LojaABC
             this.rdbNãodesejoinformar.TabStop = true;
             this.rdbNãodesejoinformar.Text = "Não desejo informar";
             this.rdbNãodesejoinformar.UseVisualStyleBackColor = true;
-           
             // 
             // rdbFeminino
             // 
@@ -478,7 +479,6 @@ namespace LojaABC
             this.lblNumero.Size = new System.Drawing.Size(65, 20);
             this.lblNumero.TabIndex = 10;
             this.lblNumero.Text = "Número";
-           
             // 
             // mskCep
             // 
@@ -513,6 +513,16 @@ namespace LojaABC
             this.lblLogradouro.Size = new System.Drawing.Size(91, 20);
             this.lblLogradouro.TabIndex = 0;
             this.lblLogradouro.Text = "Logradouro";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(657, 186);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(56, 50);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmFuncionarios
             // 
@@ -581,5 +591,6 @@ namespace LojaABC
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button button1;
     }
 }
