@@ -59,3 +59,7 @@ C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.csproj.Up2Date
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.exe
 C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\obj\Debug\LojaABC.pdb
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\bin\Debug\MosaicoSolutions.ViaCep.dll
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\matheus.nguedes\Documents\Visual Studio 2019\ProjetoCSharp_TransformeSe\LojaABC\bin\Debug\Newtonsoft.Json.xml

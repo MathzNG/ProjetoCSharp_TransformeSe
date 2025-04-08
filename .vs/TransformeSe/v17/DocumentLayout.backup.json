@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\lojaabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2019\\projetocsharp_transformese\\lojaabc\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833BC919-7123-46D5-B554-11F3FD868EA3}|LojaABC\\LojaABC.csproj|solutionrelative:lojaabc\\conection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Conection.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\Conection.cs",
+              "RelativeDocumentMoniker": "LojaABC\\Conection.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\Conection.cs",
+              "RelativeToolTip": "LojaABC\\Conection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:06:16.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "frmFuncionarios.cs",
               "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs",
               "RelativeDocumentMoniker": "LojaABC\\frmFuncionarios.cs",
               "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmFuncionarios.cs",
               "RelativeToolTip": "LojaABC\\frmFuncionarios.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAQwM8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAADwv7MAAAD8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T19:12:33.484Z",
+              "WhenOpened": "2025-04-08T17:33:58.501Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPesquisarFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmPesquisarFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojaABC\\frmPesquisarFuncionarios.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\frmPesquisarFuncionarios.cs [Design]",
+              "RelativeToolTip": "LojaABC\\frmPesquisarFuncionarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:33:51.071Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -48,19 +77,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T19:12:31.394Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Conection.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\Conection.cs",
-              "RelativeDocumentMoniker": "LojaABC\\Conection.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2019\\ProjetoCSharp_TransformeSe\\LojaABC\\Conection.cs*",
-              "RelativeToolTip": "LojaABC\\Conection.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T19:10:24.449Z",
-              "EditorCaption": ""
             }
           ]
         }

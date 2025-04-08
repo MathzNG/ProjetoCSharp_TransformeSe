@@ -31,6 +31,7 @@ namespace LojaABC
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFuncionarios));
             this.gpbDadospessoais = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.mskCelular = new System.Windows.Forms.MaskedTextBox();
             this.lblCelular = new System.Windows.Forms.Label();
             this.gpbSexo = new System.Windows.Forms.GroupBox();
@@ -60,8 +61,8 @@ namespace LojaABC
             this.lblUf = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.lblCidade = new System.Windows.Forms.Label();
-            this.txtEstado = new System.Windows.Forms.TextBox();
-            this.lblEstado = new System.Windows.Forms.Label();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.lblBairro = new System.Windows.Forms.Label();
             this.txtComplemento = new System.Windows.Forms.TextBox();
             this.lblComplemento = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
@@ -70,7 +71,6 @@ namespace LojaABC
             this.lblCep = new System.Windows.Forms.Label();
             this.txtLogradouro = new System.Windows.Forms.TextBox();
             this.lblLogradouro = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.gpbDadospessoais.SuspendLayout();
             this.gpbSexo.SuspendLayout();
             this.pnlCRUD.SuspendLayout();
@@ -100,6 +100,16 @@ namespace LojaABC
             this.gpbDadospessoais.TabIndex = 0;
             this.gpbDadospessoais.TabStop = false;
             this.gpbDadospessoais.Text = "Dados pessoais";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(657, 186);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(56, 50);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // mskCelular
             // 
@@ -351,8 +361,8 @@ namespace LojaABC
             this.gpbEndereço.Controls.Add(this.lblUf);
             this.gpbEndereço.Controls.Add(this.txtCidade);
             this.gpbEndereço.Controls.Add(this.lblCidade);
-            this.gpbEndereço.Controls.Add(this.txtEstado);
-            this.gpbEndereço.Controls.Add(this.lblEstado);
+            this.gpbEndereço.Controls.Add(this.txtBairro);
+            this.gpbEndereço.Controls.Add(this.lblBairro);
             this.gpbEndereço.Controls.Add(this.txtComplemento);
             this.gpbEndereço.Controls.Add(this.lblComplemento);
             this.gpbEndereço.Controls.Add(this.txtNumero);
@@ -429,22 +439,22 @@ namespace LojaABC
             this.lblCidade.TabIndex = 15;
             this.lblCidade.Text = "Cidade";
             // 
-            // txtEstado
+            // txtBairro
             // 
-            this.txtEstado.Location = new System.Drawing.Point(376, 79);
-            this.txtEstado.MaxLength = 100;
-            this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(124, 26);
-            this.txtEstado.TabIndex = 19;
+            this.txtBairro.Location = new System.Drawing.Point(370, 79);
+            this.txtBairro.MaxLength = 100;
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(124, 26);
+            this.txtBairro.TabIndex = 16;
             // 
-            // lblEstado
+            // lblBairro
             // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(311, 82);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(60, 20);
-            this.lblEstado.TabIndex = 13;
-            this.lblEstado.Text = "Estado";
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Location = new System.Drawing.Point(311, 82);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(51, 20);
+            this.lblBairro.TabIndex = 13;
+            this.lblBairro.Text = "Bairro";
             // 
             // txtComplemento
             // 
@@ -487,6 +497,7 @@ namespace LojaABC
             this.mskCep.Name = "mskCep";
             this.mskCep.Size = new System.Drawing.Size(91, 26);
             this.mskCep.TabIndex = 13;
+            this.mskCep.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCep_KeyDown);
             // 
             // lblCep
             // 
@@ -513,16 +524,6 @@ namespace LojaABC
             this.lblLogradouro.Size = new System.Drawing.Size(91, 20);
             this.lblLogradouro.TabIndex = 0;
             this.lblLogradouro.Text = "Logradouro";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(657, 186);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 50);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmFuncionarios
             // 
@@ -576,8 +577,8 @@ namespace LojaABC
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.MaskedTextBox mskCep;
         private System.Windows.Forms.Label lblCep;
-        private System.Windows.Forms.TextBox txtEstado;
-        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.Label lblBairro;
         private System.Windows.Forms.TextBox txtComplemento;
         private System.Windows.Forms.Label lblComplemento;
         private System.Windows.Forms.ComboBox cbbUf;
